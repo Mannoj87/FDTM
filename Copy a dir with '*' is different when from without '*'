@@ -1,4 +1,4 @@
-Copy a dir with '*' is different when from without '*'
+# Copy a dir with '*' is different when from without '*'
 
 Command (a)
 cp -r /home/mannoj/* /home/kumar/*
@@ -7,7 +7,7 @@ Command (b)
 cp -r /home/mannoj/* /home/kumar/
 
 
-Explanation: 
+## Explanation: 
 My intention was to copy all the directories and files under /home/mannoj/* to /home/kumar/ for which command(b) is a perfect one. 
 But Command(a) puts all the files and folders in to the last sub directory under /home/kumar/. Also copies other subdirecotories under /home/kumar to the last sub directory. 
 Not sure if its a bug or some logic behind it.
