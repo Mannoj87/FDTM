@@ -1,4 +1,4 @@
-# Copy a dir with "asterisk" is different when from without "asterisk"
+# Copy a dir with "*" is different when from without "*"
 
 Command (a)
 cp -r /home/mannoj/* /home/kumar/*
