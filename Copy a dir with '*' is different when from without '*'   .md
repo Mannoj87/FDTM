@@ -17,26 +17,26 @@ ls -ltr /home/mannoj/
 -rw-------. 1 root root 3853 May 17 15:57 anaconda-ks.cfg
 -rw-------. 1 root root 3853 May 17 15:57 anaconda
 
- # mkdir -p /home/kumar/A
- # mkdir -p /home/kumar/B
- # mkdir -p /home/kumar/C
- # cp -r /home/mannoj/* /home/kumar/*
- # ls -ltr /home/kumar/
+ $ mkdir -p /home/kumar/A
+ $ mkdir -p /home/kumar/B
+ $ mkdir -p /home/kumar/C
+ $ cp -r /home/mannoj/* /home/kumar/*
+ $ ls -ltr /home/kumar/
 total 0
 drwx------. 2 root root  6 May 17 15:59 A
 drwx------. 2 root root  6 May 17 15:59 B
 drwx------. 4 root root 59 May 17 15:59 C
- # ls -ltr /home/kumar/A
+ $ ls -ltr /home/kumar/A
 total 0
- # ls -ltr /home/kumar/B
+ $ ls -ltr /home/kumar/B
 total 0
- # ls -ltr /home/kumar/C
+ $ ls -ltr /home/kumar/C
 total 8
 drwx------. 2 root root    6 May 17 15:59 B
 -rw-------. 1 root root 3853 May 17 15:59 anaconda-ks.cfg
 -rw-------. 1 root root 3853 May 17 15:59 anaconda
 drwx------. 2 root root    6 May 17 15:59 A
- # ls -ltr /home/mannoj/
+ $ ls -ltr /home/mannoj/
 total 8
 -rw-------. 1 root root 3853 May 17 15:57 anaconda-ks.cfg
 -rw-------. 1 root root 3853 May 17 15:57 anaconda
