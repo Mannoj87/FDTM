@@ -1,0 +1,9 @@
+Copy a dir with '*' is different when from without '*'
+
+Command (a)
+cp -r /home/mannoj/* /home/kumar/*
+
+Command (b)
+cp -r /home/mannoj/* /home/kumar/
+
+
