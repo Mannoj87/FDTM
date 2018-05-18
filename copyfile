@@ -1,0 +1,2 @@
+time sysbench --db-driver=mysql --mysql-table-engine=innodb /usr/share/sysbench/tests/include/oltp_legacy/oltp.lua --oltp-table-size=200
+00 --mysql-host=prd-galera423.nm1 --mysql-port=3306 --mysql-db=dbtest --mysql-user=dbtest --mysql-password=dbtest cleanup
